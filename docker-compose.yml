@@ -2,7 +2,7 @@ version: "3.8"
 services:
   mssql:
     image: "mcr.microsoft.com/mssql/server"
-    container_name: voxuy-mssql
+    container_name: local-mssql
     environment:
       SA_PASSWORD: "Develop@123"
       ACCEPT_EULA: "Y"
